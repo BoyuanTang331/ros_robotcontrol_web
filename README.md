@@ -126,8 +126,39 @@ pnpm run dev
 
 MIT License
 
-## Screenshot
 
-![ROS2 Robot Control UI](https://9vmuyh1yq52l.space.minimaxi.com/screenshot.png)
 
-**Live Demo**: https://9vmuyh1yq52l.space.minimaxi.com
+# 根目录文件：
+
+    README.md - 项目说明文档（含截图）
+
+    package.json - 项目依赖配置
+
+    index.html - HTML 入口文件
+
+    vite.config.ts - Vite 构建配置
+
+    tsconfig.json / tsconfig.app.json / tsconfig.node.json - TypeScript 配置
+
+    tailwind.config.js / postcss.config.js - CSS 配置
+
+    eslint.config.js - ESLint 配置
+
+    components.json - UI 组件配置
+
+
+# src 目录文件：
+
+    src/App.tsx - 主 React 组件（含 ROS 通信逻辑）
+
+    src/App.css - 样式文件
+
+    src/main.tsx - React 入口
+
+    src/index.css - 全局样式
+
+    src/roslib.d.ts - TypeScript 类型定义
+
+
+
+
